@@ -1,7 +1,7 @@
 {
-  "name": "connect-nexco",
+  "name": "Jitsi Example",
   "version": "1.0.0",
-  "description": "Connect webview sample for Nexco",
+  "description": "Jitsi example for web",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf _site",
