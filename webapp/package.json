@@ -1,0 +1,22 @@
+{
+  "name": "connect-nexco",
+  "version": "1.0.0",
+  "description": "Connect webview sample for Nexco",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf _site",
+    "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve",
+    "dev": "npm-run-all clean --parallel dev:*",
+    "build:eleventy": "ELEVENTY_ENV=production eleventy",
+    "build": "npm-run-all clean --parallel build:*"
+  },
+  "author": "R. Oung",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.7.1"
+  }
+}
